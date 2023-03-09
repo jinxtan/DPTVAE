@@ -8,7 +8,6 @@ PyCharm.py
 from models.DATVAE import DATVAESynthesizer
 from eval.corr_dist import *
 from eval.evaluation import get_utility_metrics, stat_sim, privacy_metrics
-from sdv.evaluation import evaluate
 from eval.result_output import *
 from function_c.auto_dc import *
 from sklearn.model_selection import train_test_split
