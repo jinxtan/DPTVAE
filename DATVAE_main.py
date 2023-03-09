@@ -12,7 +12,6 @@ from sdv.evaluation import evaluate
 from eval.result_output import *
 from function_c.auto_dc import *
 from sklearn.model_selection import train_test_split
-from function_c.auto_dc import *
 from function_c.data_read import *
 import warnings
 
