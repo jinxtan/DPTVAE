@@ -68,8 +68,8 @@ def corr_d(train,samples):
 
     for i in train.columns:
         if len(samples[i].value_counts()) == 1:
-            Rho_D.append(0)
-            Rho_SD.append(0)
+            Rho_D.append(2)
+            Rho_SD.append(2)
 
         else:
             Rho_D.append(abs(rho_d[i]).sum())
