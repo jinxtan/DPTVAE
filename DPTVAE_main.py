@@ -5,7 +5,7 @@ Created on 2022/6/30 17:05
 email: 20110240017@fudan.edu.cn
 PyCharm.py
 """
-from models.DATVAE import DATVAESynthesizer
+from models.DPTVAE import DATVAESynthesizer
 from eval.corr_dist import *
 from eval.evaluation import get_utility_metrics, stat_sim, privacy_metrics
 from eval.result_output import *
