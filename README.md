@@ -1,1 +1,1 @@
-# DATVAE: A Data-driven Adaptive Tabular Variational Autoencoder for Data Synthesis
+# DPTVAE: Data-driven prior-based tabular variational autoencoder for credit data synthesizing
